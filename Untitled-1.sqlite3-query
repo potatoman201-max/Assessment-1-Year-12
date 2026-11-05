@@ -27,7 +27,8 @@ INSERT OR IGNORE INTO publishers (publisher_id, name, headquarters) VALUES
     (6, 'Bandai Namco Entertainment', 'Tokyo, Japan'),
     (7, 'Activision', 'Santa Monica, USA'),
     (8, 'Sony Interactive Entertainment', 'San Mateo, USA'),
-    (9, 'Valve', 'Bellevue, USA');
+    (9, 'Valve', 'Bellevue, USA'),
+    (10, 'Ubisoft', 'Saint-Mandé, France');
 
 INSERT OR IGNORE INTO popular_games (game_id, title, publisher_id, release_year, genre) VALUES
     (1, 'Minecraft', 2, 2011, 'Sandbox'),
@@ -39,7 +40,17 @@ INSERT OR IGNORE INTO popular_games (game_id, title, publisher_id, release_year,
     (7, 'Elden Ring', 6, 2022, 'Action role-playing'),
     (8, 'Call of Duty: Modern Warfare', 7, 2019, 'First-person shooter'),
     (9, 'God of War', 8, 2018, 'Action-adventure'),
-    (10, 'Portal 2', 9, 2011, 'Puzzle platformer');
+    (10, 'Portal 2', 9, 2011, 'Puzzle platformer'),
+    (11, 'Assassin’s Creed Valhalla', 10, 2020, 'Action role-playing'),
+    (12, 'Animal Crossing: New Horizons', 1, 2020, 'Life simulation'),
+    (13, 'Red Dead Redemption 2', 3, 2018, 'Action-adventure'),
+    (14, 'The Witcher 3: Wild Hunt', 6, 2015, 'Action role-playing'),
+    (15, 'Overwatch 2', 5, 2022, 'Hero shooter'),
+    (16, 'Counter-Strike 2', 9, 2023, 'First-person shooter'),
+    (17, 'The Last of Us Part II', 8, 2020, 'Action-adventure'),
+    (18, 'Call of Duty: Black Ops Cold War', 7, 2020, 'First-person shooter'),
+    (19, 'Apex Legends', 5, 2019, 'Battle royale'),
+    (20, 'Super Smash Bros. Ultimate', 1, 2018, 'Fighting');
 
 SELECT * FROM publishers;
 SELECT * FROM popular_games;
