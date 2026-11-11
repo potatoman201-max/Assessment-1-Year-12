@@ -19,38 +19,39 @@ CREATE TABLE IF NOT EXISTS popular_games (
 );
 
 INSERT OR IGNORE INTO publishers (publisher_id, name, headquarters) VALUES
-    (1, 'Nintendo', 'Kyoto, Japan'),
-    (2, 'Mojang Studios', 'Stockholm, Sweden'),
-    (3, 'Rockstar Games', 'New York City, USA'),
-    (4, 'Epic Games', 'Cary, USA'),
-    (5, 'Electronic Arts', 'Redwood City, USA'),
-    (6, 'Bandai Namco Entertainment', 'Tokyo, Japan'),
-    (7, 'Activision', 'Santa Monica, USA'),
-    (8, 'Sony Interactive Entertainment', 'San Mateo, USA'),
-    (9, 'Valve', 'Bellevue, USA'),
-    (10, 'Ubisoft', 'Saint-Mandé, France');
+(1, 'Nintendo', 'Kyoto, Japan'),
+(2, 'Mojang Studios', 'Stockholm, Sweden'),
+(3, 'Rockstar Games', 'New York City, USA'),
+(4, 'Epic Games', 'Cary, USA'),
+(5, 'Electronic Arts', 'Redwood City, USA'),
+(6, 'Bandai Namco Entertainment', 'Tokyo, Japan'),
+(7, 'Activision', 'Santa Monica, USA'),
+(8, 'Sony Interactive Entertainment', 'San Mateo, USA'),
+(9, 'Valve', 'Bellevue, USA'),
+(10, 'Ubisoft', 'Saint-Mandé, France');
 
 INSERT OR IGNORE INTO popular_games (game_id, title, publisher_id, release_year, genre) VALUES
-    (1, 'Minecraft', 2, 2011, 'Sandbox'),
-    (2, 'Grand Theft Auto V', 3, 2013, 'Action-adventure'),
-    (3, 'The Legend of Zelda: Breath of the Wild', 1, 2017, 'Action-adventure'),
-    (4, 'Super Mario Bros.', 1, 1985, 'Platformer'),
-    (5, 'Fortnite', 4, 2017, 'Battle royale'),
-    (6, 'The Sims 4', 5, 2014, 'Life simulation'),
-    (7, 'Elden Ring', 6, 2022, 'Action role-playing'),
-    (8, 'Call of Duty: Modern Warfare', 7, 2019, 'First-person shooter'),
-    (9, 'God of War', 8, 2018, 'Action-adventure'),
-    (10, 'Portal 2', 9, 2011, 'Puzzle platformer'),
-    (11, 'Assassin’s Creed Valhalla', 10, 2020, 'Action role-playing'),
-    (12, 'Animal Crossing: New Horizons', 1, 2020, 'Life simulation'),
-    (13, 'Red Dead Redemption 2', 3, 2018, 'Action-adventure'),
-    (14, 'The Witcher 3: Wild Hunt', 6, 2015, 'Action role-playing'),
-    (15, 'Overwatch 2', 5, 2022, 'Hero shooter'),
-    (16, 'Counter-Strike 2', 9, 2023, 'First-person shooter'),
-    (17, 'The Last of Us Part II', 8, 2020, 'Action-adventure'),
-    (18, 'Call of Duty: Black Ops Cold War', 7, 2020, 'First-person shooter'),
-    (19, 'Apex Legends', 5, 2019, 'Battle royale'),
-    (20, 'Super Smash Bros. Ultimate', 1, 2018, 'Fighting');
+(1, 'Minecraft', 2, 2011, 'Sandbox'),
+(2, 'Grand Theft Auto V', 3, 2013, 'Action-adventure'),
+(3, 'The Legend of Zelda: Breath of the Wild', 1, 2017, 'Action-adventure'),
+(4, 'Super Mario Bros.', 1, 1985, 'Platformer'),
+(5, 'Fortnite', 4, 2017, 'Battle royale'),
+(6, 'The Sims 4', 5, 2014, 'Life simulation'),
+(7, 'Elden Ring', 6, 2022, 'Action role-playing'),
+(8, 'Call of Duty: Modern Warfare', 7, 2019, 'First-person shooter'),
+(9, 'God of War', 8, 2018, 'Action-adventure'),
+(10, 'Portal 2', 9, 2011, 'Puzzle platformer'),
+(11, 'Assassin''s Creed Valhalla', 10, 2020, 'Action role-playing'),
+(12, 'Animal Crossing: New Horizons', 1, 2020, 'Life simulation'),
+(13, 'Red Dead Redemption 2', 3, 2018, 'Action-adventure'),
+(14, 'The Witcher 3: Wild Hunt', 6, 2015, 'Action role-playing'),
+(15, 'Overwatch 2', 5, 2022, 'Hero shooter'),
+(16, 'Counter-Strike 2', 9, 2023, 'First-person shooter'),
+(17, 'The Last of Us Part II', 8, 2020, 'Action-adventure'),
+(18, 'Call of Duty: Black Ops Cold War', 7, 2020, 'First-person shooter'),
+(19, 'Apex Legends', 5, 2019, 'Battle royale'),
+(20, 'Super Smash Bros. Ultimate', 1, 2018, 'Fighting');
 
+-- Check the data
 SELECT * FROM publishers;
 SELECT * FROM popular_games;
